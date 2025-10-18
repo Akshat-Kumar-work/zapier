@@ -2,6 +2,7 @@ import { Request, Response } from 'express';
 import db from '@repo/db';
 import ResponseBuilder from '@repo/be_common/dist';
 
+console.log("test")
 export const createZapRun = async (req: Request, res: Response) => {
   const {zapId,metaData} = req.body;
   try {    
