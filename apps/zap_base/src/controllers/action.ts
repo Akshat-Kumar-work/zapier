@@ -51,3 +51,6 @@ export const deleteAction = async (req: Request, res: Response) => {
     return res.status(400).json(ResponseBuilder.error('Failed to delete Action'));
   }
 };
+
+
+console.log("ok")
